@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabby</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="normalize.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="Tabby_container">
+        <div class="button-container">
+            <button class="tab is-selected" data-target="digimon" data-theme="digimon">Digimon</button>
+            <button class="tab" data-target="pokemon" data-theme="pokemon">pokemon</button>
+            <button class="tab" data-target="tamagotchi" data-theme="tamagotchi">Tamagotchi</button>
+        </div>
+        <div class="tabby-content">
+            <div class="tabs is-selected" id="digimon" data-theme="digimon">content-1</div>
+            <div class="tabs" id="pokemon" data-theme="pokemon">content-2</div>
+            <div class="tabs" id="tamagotchi" data-theme="tamagotchi">content-3</div>
+        </div>
+    </div>
+</body>
+</html>
